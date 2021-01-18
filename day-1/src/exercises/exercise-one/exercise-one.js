@@ -1,23 +1,10 @@
 import React from "react";
 
 function Hello() {
-  //  [JSX]
-  //  return <h2>Afayaivos a React</h2>;
-
-  //  [Rreact.createElement]
   return React.createElement("h2", null, "Afayaivos a React");
 }
 
-export default function Exercise1() {
-  //  [JSX]
-  //  return (
-  //    <>
-  //      <h1>React first steps</h1>
-  //      <Hello />
-  //    </>
-  //  );
-
-  // [Rreact.createElement]
+export default function ExerciseOne() {
   return React.createElement(
     React.Fragment,
     null,
