@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.exercises {
+  text-align: center;
+  margin: 2rem;
+}
+
+.exercises .exercises__title {
+  text-decoration: underline;
+  margin: 2rem;
+}
+
+.exercises .exercises__content {
+  margin: 2rem;
+}
